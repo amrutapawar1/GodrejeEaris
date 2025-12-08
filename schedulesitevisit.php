@@ -37,7 +37,7 @@ if(mail($to,$subject,$message,$headers)) //Send an Email. Return true on success
 {
 echo 
 
-"<script>window.location.href='https://api.whatsapp.com/send?phone=+9197177041418&text=Hi, I saw the project details and scheduled my visit to Godrej Elaris, kindly call me back, I am interested in buying a new property.';</script>";
+"<script>window.location.href='https://api.whatsapp.com/send?phone=+917767093332&text=Hi, I saw the project details and scheduled my visit to Godrej Elaris, kindly call me back, I am interested in buying a new property.';</script>";
 }
 else
 {
