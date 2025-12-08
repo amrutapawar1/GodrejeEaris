@@ -50,6 +50,7 @@
                 max-width: 18vw;
                 height: 1.9vw;
             }
+            
         }
 
         @media only screen and (max-width: 991px) {
@@ -58,6 +59,28 @@
                 max-width: 275px;
             }
         }
+        
+#amenities .amenities-box {
+  position: relative;
+  margin-bottom: 32px;
+}
+#amenities .amenities-box img {
+  object-fit: cover;
+  width: 100%;
+  border-radius: 15px;
+}
+#amenities .amenities-box p {
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.1vw;
+  border-left: 4px solid #daa520;
+  color: #fff;
+  position: absolute;
+  left: 11px;
+  bottom: -7px;
+  padding: 6px 10px;
+  background: #000000a1;
+}
     </style>
 </head>
 
@@ -493,41 +516,53 @@
                     <h2 class="head text-capitalize">Amenities at Godrej Elaris</h2>
                 </div>
             </div>
-            <div class="row col-12">
-                <div class="ami_sec  col-lg-4 col-md-4 col-6 " style="padding: 5px;" >
-                    <img src="assets/dpsimg/Clubhouse.webp" class="gallery-img img-responsive shadow-sm"
+            <div class="row ">
+                <div class=" col-lg-4 col-md-4 col-6 " >
+                    <div class="amenities-box">
+                    <img src="assets/dpsimg/Clubhouse.webp" class="img-responsive "
                         alt="Gallery Image 1">
                     <p>clubhouse</p>
+                    </div>
                 </div>
 
-                <div class="ami_sec  col-lg-4 col-md-4 col-6" style="padding: 5px;">
-                    <img src="assets/dpsimg/Jogging Track.webp" class="gallery-img img-responsive shadow-sm"
+                <div class=" col-lg-4 col-md-4 col-6">
+                    <div class="amenities-box">
+                    <img src="assets/dpsimg/Jogging Track.webp" class=" img-responsive img-fluid"
                         alt="Gallery Image 2">
                     <p>Jogging Track</p>
+                    </div>
                 </div>
 
-                <div class="ami_sec col-lg-4 col-md-4 col-6 " style="padding: 5px;">
-                    <img src="assets/dpsimg/Security.webp" class="gallery-img img-responsive shadow-sm"
+                <div class="col-lg-4 col-md-4 col-6 ">
+                    <div class="amenities-box">
+                    <img src="assets/dpsimg/Security.webp" class=" img-responsive img-fluid "
                         alt="Gallery Image 3">
                     <p>Security</p>
+                    </div>
                 </div>
 
-                <div class="ami_sec col-lg-4 col-md-4 col-6 " style="padding: 5px;">
-                    <img src="assets/dpsimg/Gymnasium.webp" class="gallery-img img-responsive shadow-sm"
+                <div class="col-lg-4 col-md-4 col-6 ">
+                    <div class="amenities-box">
+                    <img src="assets/dpsimg/Gymnasium.webp" class=" img-responsive img-fluid"
                         alt="Gallery Image 4">
                     <p>Gymnasium</p>
+                    </div>
                 </div>
 
-                <div class="ami_sec  col-lg-4 col-md-4 col-6 " style="padding: 5px;">
-                    <img src="assets/dpsimg/Landscaped Gardens.webp" class="gallery-img img-responsive shadow-sm"
+                <div class="col-lg-4 col-md-4 col-6 " >
+                    <div class="amenities-box">
+                    <img src="assets/dpsimg/Landscaped Gardens.webp" class="img-responsive img-fluid "
                         alt="Gallery Image 2">
                     <p>Landscaped Gardens</p>
+                    </div>
                 </div>
 
-                <div class="ami_sec  col-lg-4 col-md-4 col-6 " style="padding: 5px;">
-                    <img src="assets/dpsimg/Swimming Pool.webp" class="gallery-img img-responsive shadow-sm"
+                <div class="col-lg-4 col-md-4 col-6 ">
+                    <div class="amenities-box">
+                    <img src="assets/dpsimg/Swimming Pool.webp" class=" img-responsive img-fluid"
                         alt="Gallery Image 1">
                     <p>Swimming Pool</p>
+                    </div>
                 </div>
             </div>
         </section>
