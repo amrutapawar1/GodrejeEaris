@@ -6,7 +6,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <link rel="icon" type="image/x-icon" href="assets/dpsimg/logo.png" />
+    <link rel="icon" type="image/x-icon" href="assets/dpsimg//android-chrome-192x192.png" />
     <title>Godrej Elaris </title>
     <meta name="description" content="Godrej Elaris" />
     <meta name="keywords" content="" />
@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="preload" href="https://d1zdkpwby52v4t.cloudfront.net/godrejsereneco/assets/fonts/micon.woff2" as="font"
         type="font/woff2" crossorigin />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
     <style>
         .micro-navbar {
             background-color: #fff !important;
@@ -43,6 +44,18 @@
                 font-weight: 400;
             }
         }
+        @media only screen and (min-width: 992px) {
+    .logo {
+        max-width: 18vw;
+        height: 1.9vw;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .logo {
+        height: 20px;
+        max-width: 275px;
+    }
+}
     </style>
 </head>
 
@@ -86,7 +99,7 @@
     </div>
     <header class="micro-nav fixed-top pload">
         <nav class="navbar navbar-expand-lg navbar-light  micro-navbar">
-            <a class="navbar-brand" href="index.html"><img src="assets/dpsimg/logo.png" class="logo" /></a>
+            <a class="navbar-brand" href="index.html"><img src="assets/dpsimg/logo.png" class="logo" style="height: 1.9vm;" /></a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span
@@ -144,16 +157,6 @@
                 <div class="carousel-item lazyloaded">
                     <div class="desktopview"><img height="400" width="1200"
                             class="lazyload d-block micro-main-slider-img" src="assets/dpsimg/banner2.webp" />
-                    </div>
-                </div>
-                <div class="carousel-item lazyloaded">
-                    <div class="desktopview"><img height="400" width="1200"
-                            class="lazyload d-block micro-main-slider-img" src="assets/dpsimg/banner3.webp" />
-                    </div>
-                </div>
-                <div class="carousel-item lazyloaded">
-                    <div class="desktopview"><img height="400" width="1200"
-                            class="lazyload d-block micro-main-slider-img" src="assets/dpsimg/banner4.webp" />
                     </div>
                 </div>
             </div>
@@ -461,7 +464,7 @@
             </div>
         </section>
 
-        <section class="section shadow-sm lazyload" id="Amenities">
+        <section class="section shadow-sm lazyload" id="amenities">
             <div class="row mb-3">
                 <div class="col-md-8">
                     <h2 class="head text-capitalize">Amenities at Godrej Elaris</h2>
@@ -505,8 +508,7 @@
                 </div>
             </div>
         </section>
-
-        <section id="address_section" class="section shadow-sm lazyloaded"> </section>
+      <section id="address_section" class="section shadow-sm lazyloaded"> </section>
         <section class="section shadow-sm lazyloaded" id="sitevisit">
             <span class="section-link"></span>
             <span class="head text-capitalize">Godrej Elaris
@@ -528,8 +530,6 @@
                                 <span class="text-uppercase h1 font-weight-bold mb-0 d-none d-lg-block">Virtual Site
                                     Visit</span>
                                 <span class="text-capitalize text-center d-none d-lg-block"> Godrej Elaris
-
-
                                 </span>
                             </div>
                         </div>
@@ -570,8 +570,7 @@
             id="developer">
             <div class="container justify-content-center">
                 <img src="assets/dpsimg/logo.png" alt="QR Code"><br>
-                <p style="text-align: center;">Agent Rera Number : A51900029955
-                    Project Rera Number : PM1260002501385BP</p>
+                <p style="text-align: center;">Project Rera Number : PM1260002501385BP</p>
             </div>
             <small>
                 <b>Disclaimer:</b>
@@ -595,9 +594,6 @@
     <!--exit modal 1 start -->
     <div class="modal fade lightbox" id="enqModal233" tabindex="-1" role="dialog" aria-hidden="true"></div>
     <!--Exit modal 1 end-->
-    <!-- exit modal 2 start -->
-    <!-- <div class="modal fade lightbox2 abc"></div> -->
-    <!--exit modal 2 end -->
 
     <div class="micro-side text-center">
         <div class="og-section pb-2">
@@ -606,7 +602,8 @@
                     data-btn="Download Now" data-enquiry="Download Price Sheet Top Corner Desktop" data-toggle="modal"
                     data-target="#enqModal">
                     <div><img src="assets/dpsimg/newpdfimg.png" class="bounce pdf-img"></div>
-                    <div><i class="mi mi-download nav-icon d-inline-block animated slideInDown infinite"></i><br>Price Sheet</div>
+                    <div><i class="mi mi-download nav-icon d-inline-block animated slideInDown infinite"></i><br>Price
+                        Sheet</div>
                 </li>
                 <li class="nav-item driftc d-flex-center-items"> <a href="tel:+91 9158145429"
                         class="textcolor d-flex-center-items"><i class="mi mi-call"></i> +91 9158145429</a></li>
