@@ -6,7 +6,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <link rel="icon" type="image/x-icon" href="assets/dpsimg/logo.png" />
+    <link rel="icon" type="image/x-icon" href="assets/dpsimg/android-chrome-192x192.png" />
     <title>Godrej Elaris</title>
     <meta name="description" content="Godrej Elaris" />
     <meta name="keywords" content="" />
@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="preload" href="https://d1zdkpwby52v4t.cloudfront.net/godrejsereneco/assets/fonts/micon.woff2" as="font"
         type="font/woff2" crossorigin />
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <style>
         section {
             height: 205vh;
@@ -33,6 +35,14 @@
                 max-width: 275px;
             }
         }
+         .whatsapp{
+            font-size: 1.2vw;
+        }
+        @media only screen and (max-width: 991px) {
+    .whatsapp {
+        font-size: 16px;
+        margin-bottom: 18px;
+    }}
     </style>
    </head>
 
@@ -1171,6 +1181,14 @@
                                 <button type="submit" class="btn btn-info micro-form-btn effetMoveGradient submitBtn"
                                     id="submitBtn" style="margin-top:10px;margin-bottom:10px">Get Instant Call
                                     Back</button>
+                                    <a href="https://api.whatsapp.com/send?phone=+917767093332%20&amp;text=Hi,%20I%20saw%20details%20of%20project%20Godrej%20Elaris%20|%20kindly%20call%20me%20back.%20I%20am%20interested%20in%20buying%20a%20new%20property."
+                                    style="text-decoration: none;">
+                                    <button type="button"
+                                        class="btn btn-sm btn-info effetGradient effectScale enqModal whatsapp"
+                                        id="submitBtn" >
+                                        <i class="fa fa-whatsapp"
+                                            aria-hidden="true"></i>&nbsp;Connect On WhatsApp
+                                    </button></a>
                             </form>
                         </div>
                     </div>
@@ -1345,7 +1363,7 @@
                         $("#enqModal .modal-head").removeClass("d-none");
                         $("#enqModal .modal-call-btn").addClass("d-none");
                         $("#enqModal .modal-title").text("Virtual Site Visit"),
-                            $("#enqModal .micro-form-btn").text("Start Tour"),
+                            $("#enqModal .micro-form-btn").text("Enquire Now"),
                             $("#enqModal #enquiredfor").val("Virtual Tour Exit intent popup"),
                             $('#enqModal').modal('show');
 
@@ -1372,7 +1390,7 @@
                         $("#enqModal .modal-head").removeClass("d-none");
                         $("#enqModal .modal-call-btn").addClass("d-none");
                         $("#enqModal .modal-title").text("Virtual Site Visit"),
-                            $("#enqModal .micro-form-btn").text("Start Tour"),
+                            $("#enqModal .micro-form-btn").text("Enquire Now"),
                             $("#enqModal #enquiredfor").val("Virtual Tour Exit intent popup on scroll"),
                             $('#enqModal').modal('show');
                     }
